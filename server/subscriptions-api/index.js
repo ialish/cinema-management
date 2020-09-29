@@ -7,7 +7,6 @@ const port = process.env.PORT || 8000;
 
 connectDB();
 
-app.use(express.json());
 app.use('/', indexRouter);
 
 app.listen(port, () => {
